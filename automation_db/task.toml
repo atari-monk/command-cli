@@ -60,3 +60,12 @@ context_files = [ 11, 5,]
 save_file = 11
 assigned_to = "human"
 status = "tested"
+
+[[task]]
+feature = "prototype"
+name = "export_command"
+requirements = [ "implement and manually test export command",]
+context_files = [ 12, 5,]
+save_file = 12
+assigned_to = "human"
+status = "tested"

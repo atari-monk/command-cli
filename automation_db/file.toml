@@ -74,3 +74,10 @@ feature = "prototype"
 task = "search_command"
 file_name = "search.py"
 path = "src/commands"
+
+[[file]]
+id = 12
+feature = "prototype"
+task = "export_command"
+file_name = "export.py"
+path = "src/commands"
