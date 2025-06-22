@@ -1,5 +1,6 @@
 import argparse
 from src.commands.add import add_command
+from src.commands.edit import edit_command
 from src.commands.list import list_commands
 
 
@@ -17,6 +18,14 @@ def main():
     # List
     p_list = subparsers.add_parser("list", help="List all saved commands")
     p_list.set_defaults(func=list_commands)
+
+    # Edit
+    p_edit = subparsers.add_parser("edit", help="Edit an existing command")
+    p_edit.add_argument("id", help="ID (or partial ID) of the command to edit")
+    p_edit.add_argument("--command", help="New command string")
+    p_edit.add_argument("--description", help="New description")
+    p_edit.add_argument("--tags", help="New comma-separated tags (empty to clear)")
+    p_edit.set_defaults(func=edit_command)
 
     args = parser.parse_args()
     if hasattr(args, "func"):

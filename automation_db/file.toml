@@ -46,3 +46,10 @@ feature = "prototype"
 task = "list_command"
 file_name = "list.py"
 path = "src/commands"
+
+[[file]]
+id = 8
+feature = "prototype"
+task = "edit_command"
+file_name = "edit.py"
+path = "src/commands"

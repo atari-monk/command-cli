@@ -1,11 +1,11 @@
 [
   {
     "id": "661dfbf2-5c3b-461f-a7c5-6908850b2138",
-    "command": "git log --oneline",
-    "description": "Compact git log",
+    "command": "test2",
+    "description": "test",
     "tags": [
-      "git",
-      "log"
+      "tetst",
+      "twt"
     ],
     "created_at": "2025-06-22T14:06:03.670200"
   }

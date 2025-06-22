@@ -24,3 +24,12 @@ context_files = [ 7, 5,]
 save_file = 7
 assigned_to = "human"
 status = "tested"
+
+[[task]]
+feature = "prototype"
+name = "edit_command"
+requirements = [ "implement and manually test edit command",]
+context_files = [ 8, 5,]
+save_file = 8
+assigned_to = "human"
+status = "tested"
