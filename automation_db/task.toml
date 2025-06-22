@@ -51,3 +51,12 @@ context_files = [ 10, 5, 3]
 save_file = 10
 assigned_to = "human"
 status = "tested"
+
+[[task]]
+feature = "prototype"
+name = "search_command"
+requirements = [ "implement and manually test search command",]
+context_files = [ 11, 5,]
+save_file = 11
+assigned_to = "human"
+status = "tested"

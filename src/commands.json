@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": "3c61a924-2d5c-411f-a7d0-2d98fb677832",
+    "command": "test",
+    "description": "test",
+    "tags": [],
+    "created_at": "2025-06-22T18:00:09.202189"
+  }
+]

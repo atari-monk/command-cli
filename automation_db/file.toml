@@ -67,3 +67,10 @@ feature = "prototype"
 task = "delete_command"
 file_name = "delete.py"
 path = "src/commands"
+
+[[file]]
+id = 11
+feature = "prototype"
+task = "search_command"
+file_name = "search.py"
+path = "src/commands"

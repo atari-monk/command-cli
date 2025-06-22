@@ -4,6 +4,7 @@ from src.commands.delete import delete_command
 from src.commands.edit import edit_command
 from src.commands.list import list_commands
 from src.commands.read import read_command
+from src.commands.search import search_commands
 
 
 def main():
@@ -20,6 +21,11 @@ def main():
     # List
     p_list = subparsers.add_parser("list", help="List all saved commands")
     p_list.set_defaults(func=list_commands)
+
+    # Search
+    p_search = subparsers.add_parser("search", help="Search commands by keyword")
+    p_search.add_argument("query", help="Search keyword")
+    p_search.set_defaults(func=search_commands)
 
     # Edit
     p_edit = subparsers.add_parser("edit", help="Edit an existing command")
