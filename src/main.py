@@ -2,6 +2,7 @@ import argparse
 from src.commands.add import add_command
 from src.commands.edit import edit_command
 from src.commands.list import list_commands
+from src.commands.read import read_command
 
 
 def main():
@@ -26,6 +27,11 @@ def main():
     p_edit.add_argument("--description", help="New description")
     p_edit.add_argument("--tags", help="New comma-separated tags (empty to clear)")
     p_edit.set_defaults(func=edit_command)
+
+    # Read
+    p_read = subparsers.add_parser("read", help="View details of a command by ID")
+    p_read.add_argument("id", help="ID (or partial ID) of the command to view")
+    p_read.set_defaults(func=read_command)
 
     args = parser.parse_args()
     if hasattr(args, "func"):

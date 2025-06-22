@@ -53,3 +53,10 @@ feature = "prototype"
 task = "edit_command"
 file_name = "edit.py"
 path = "src/commands"
+
+[[file]]
+id = 9
+feature = "prototype"
+task = "read_command"
+file_name = "read.py"
+path = "src/commands"
