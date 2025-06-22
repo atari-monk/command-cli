@@ -1,5 +1,6 @@
 import argparse
 from src.commands.add import add_command
+from src.commands.delete import delete_command
 from src.commands.edit import edit_command
 from src.commands.list import list_commands
 from src.commands.read import read_command
@@ -32,6 +33,11 @@ def main():
     p_read = subparsers.add_parser("read", help="View details of a command by ID")
     p_read.add_argument("id", help="ID (or partial ID) of the command to view")
     p_read.set_defaults(func=read_command)
+
+    # Delete
+    p_delete = subparsers.add_parser("delete", help="Delete a command by ID")
+    p_delete.add_argument("id", help="ID (or partial ID) of the command to delete")
+    p_delete.set_defaults(func=delete_command)
 
     args = parser.parse_args()
     if hasattr(args, "func"):

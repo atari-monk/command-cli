@@ -60,3 +60,10 @@ feature = "prototype"
 task = "read_command"
 file_name = "read.py"
 path = "src/commands"
+
+[[file]]
+id = 10
+feature = "prototype"
+task = "delete_command"
+file_name = "delete.py"
+path = "src/commands"
