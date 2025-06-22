@@ -1,6 +1,6 @@
 __pycache__/
 venv/
-python_scripts.egg-info/
+command_cli.egg-info/
 .pytest_cache/
 .coverage
 .ruff_cache/

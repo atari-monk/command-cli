@@ -6,3 +6,12 @@ context_files = [ 1,]
 save_file = 1
 assigned_to = "human"
 status = "tested"
+
+[[task]]
+feature = "prototype"
+name = "add_command"
+requirements = [ "implement and manually test add command",]
+context_files = [ 2, 3, 4, 5, 6]
+save_file = 4
+assigned_to = "human"
+status = "tested"

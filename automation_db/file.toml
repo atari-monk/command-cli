@@ -4,3 +4,38 @@ feature = "project_files"
 task = "design_document"
 file_name = "design_doc.md"
 path = "docs"
+
+[[file]]
+id = 2
+feature = "prototype"
+task = "add_command"
+file_name = "model.py"
+path = "src"
+
+[[file]]
+id = 3
+feature = "prototype"
+task = "add_command"
+file_name = "storage.py"
+path = "src"
+
+[[file]]
+id = 4
+feature = "prototype"
+task = "add_command"
+file_name = "add.py"
+path = "src/commands"
+
+[[file]]
+id = 5
+feature = "prototype"
+task = "add_command"
+file_name = "main.py"
+path = "src"
+
+[[file]]
+id = 6
+feature = "prototype"
+task = "add_command"
+file_name = "commands.json"
+path = "src"

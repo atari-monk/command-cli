@@ -1,3 +1,7 @@
 [[feature]]
 name = "project_files"
 requirements = [ "setup repo and initial files",]
+
+[[feature]]
+name = "prototype"
+requirements = [ "incrementally implement prototype",]
