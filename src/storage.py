@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import List
 from src.model import Command
 
-DB_PATH = Path("commands.json")
+DB_PATH = Path(r"C:\atari-monk\code\command-cli\src\commands.json")
 
 def load_commands() -> List[Command]:
     if not DB_PATH.exists():

@@ -39,3 +39,10 @@ feature = "prototype"
 task = "add_command"
 file_name = "commands.json"
 path = "src"
+
+[[file]]
+id = 7
+feature = "prototype"
+task = "list_command"
+file_name = "list.py"
+path = "src/commands"

@@ -7,6 +7,7 @@ setup(
     install_requires=[""],
     entry_points={
         "console_scripts": [
+            "command-cli=src.main:main",
         ],
     },
     python_requires=">=3.7",

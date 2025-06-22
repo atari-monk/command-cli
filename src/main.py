@@ -1,5 +1,6 @@
 import argparse
 from src.commands.add import add_command
+from src.commands.list import list_commands
 
 
 def main():
@@ -12,6 +13,10 @@ def main():
     p_add.add_argument("description", help="Description of the command")
     p_add.add_argument("--tags", help="Comma-separated tags", default="")
     p_add.set_defaults(func=add_command)
+
+    # List
+    p_list = subparsers.add_parser("list", help="List all saved commands")
+    p_list.set_defaults(func=list_commands)
 
     args = parser.parse_args()
     if hasattr(args, "func"):
