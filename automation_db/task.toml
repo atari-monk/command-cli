@@ -1,0 +1,8 @@
+[[task]]
+feature = "project_files"
+name = "design_document"
+requirements = [ "use llm to generate document driving implementation of project prototype",]
+context_files = [ 1,]
+save_file = 1
+assigned_to = "human"
+status = "tested"

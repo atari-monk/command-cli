@@ -1,0 +1,5 @@
+[project]
+name = "command-cli"
+path = "C:\\atari-monk\\code\\command-cli"
+dependencies = [ "",]
+requirements = [ "register of commands",]

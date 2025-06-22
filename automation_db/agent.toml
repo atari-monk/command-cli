@@ -1,0 +1,7 @@
+[[agent]]
+role = "human"
+requirements = [ "do your project human",]
+
+[[agent]]
+role = "implementer"
+requirements = [ "implement code based on requirements",]

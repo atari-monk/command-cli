@@ -1,0 +1,6 @@
+[[file]]
+id = 1
+feature = "project_files"
+task = "design_document"
+file_name = "design_doc.md"
+path = "docs"
